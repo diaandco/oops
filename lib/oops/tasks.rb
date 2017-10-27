@@ -11,7 +11,7 @@ module Oops
         prerequisites: ['assets:clean', 'assets:precompile'],
         additional_paths: [],
         includes: ['public/assets', 'public/packs'],
-        excludes: ['.gitignore', 'tmp'],
+        excludes: ['.gitignore'],
         format: 'zip'
       }
     end
