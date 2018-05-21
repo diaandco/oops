@@ -1,5 +1,5 @@
 require 'oops/opsworks_deploy'
-require 'aws-sdk'
+require 'aws-sdk-s3'
 require 'rake'
 
 module Oops

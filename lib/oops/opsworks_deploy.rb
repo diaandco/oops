@@ -1,3 +1,5 @@
+require 'aws-sdk-opsworks'
+
 module Oops
   class OpsworksDeploy
     attr_accessor :stack_name, :app_name
